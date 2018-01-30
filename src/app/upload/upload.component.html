@@ -1,0 +1,13 @@
+<h1 class="mt-5">Upload Example</h1>
+
+<p class="lead">Choose a file and click Send.</p>
+
+<form [formGroup]="uploadForm">
+  <div class="form-group">
+      <input type="file" formControlName="fileToUpload" class="form-control">
+  </div>
+  <div class="form-group">
+    <app-progress [value]="progressValue"></app-progress>
+  </div>
+  <button type="button" (click)="send()" [disabled]="uploadForm.invalid" class="btn btn-primary">Send</button>
+</form>
