@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 To run the examples, download or clone the repository:
 
 ```
-git clone URL
+git clone https://github.com/cod3rcursos/ng-demo.git
 ```
 
 And do a npm install:
